@@ -1,0 +1,184 @@
+
+
+h1{
+    color:#fff;
+    padding:10px;
+    text-align:center;
+   
+
+}
+
+body{
+    background-image: url(/images/bg2.jpg);
+    
+}
+
+
+.main-content{
+    display:flex;
+}
+
+.section-list{
+    flex:5;
+    border: 1px solid cadetblue;
+    
+}
+
+.section-form{
+    flex:2;
+    border: 1px solid cadetblue;
+    box-shadow: 10px 10px 10px 12px rgb(19, 18, 18);
+}
+
+.form{
+    padding:10px;
+}
+
+.my-control{
+    display:block;
+    padding:10px 20px;
+    margin-bottom:15px;
+    width:70%;
+
+}
+
+.my-control label{
+    display:inline-block;
+    font-size:16px;
+    color:#fff;
+    font-family:'Segoe UI', Verdana, sans-serif;
+    font-weight:600;
+}
+
+
+.priority-icon{
+    font-size:30px;
+    cursor:pointer;
+}
+
+#iPriority.far{
+    color:lightgray;
+
+}
+
+#iPriority.fas{
+    color:#fff;
+    
+}
+
+
+
+.task .details{
+    display:absolute;
+
+}
+
+.task{
+    border:1px solid #ababac;
+    display: flex;
+    margin-bottom:12;
+    padding: 10px 20px;
+    align-items:center;
+    border-radius: 6px;
+    position:relative;
+    background-color:lightseagreen;
+    margin:10px;
+    cursor:pointer;
+
+    
+}
+
+.task:hover{
+    border:1px solid white;
+}
+
+.task i{
+    flex:1
+}
+
+.task .info{
+    flex: 6;
+    color:#fff;
+
+}
+
+.task .info p{
+    margin-bottom:0;
+}
+
+.task .details{
+    flex:2;
+    color:#fff;
+}
+
+.task-list{
+    padding:10px;
+    margin-top:10px;
+}
+
+.task .status{
+    display:block;
+    color:lightgray;
+    position: absolute;
+    font-weight:600;
+    padding: 5px 5px;
+    top:0;
+    right:0;
+
+
+}
+
+.task .category{
+    color:#fff;
+    padding:10px;
+    
+}
+
+#lblCount{
+    color:white;
+    padding:5px;
+    font-size:18px;
+    text-align:center;
+    
+}
+
+.section-list{
+    padding:10px;
+}
+
+.labelCounter{
+    text-align:center;
+    border-top:1px solid cadetblue;
+}   
+
+.showHideBtn{
+    text-align:center;
+}
+
+.categoryAndDate{
+    padding:5px;
+    position:relative;
+    right:40%;
+}
+
+#btnShowDetails{
+    background-color:lightseagreen;
+    color:#fff;
+}
+#btnShowDetails:hover{
+    border:1px solid white;
+}
+ 
+
+ #btnSave:hover{
+    border:1px solid white;   
+}
+
+.myName{
+    text-align:center;
+    border-top:1px solid cadetblue;
+    border-bottom:1px solid cadetblue;
+    color:#fff;
+    padding:10px;
+    
+}
